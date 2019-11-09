@@ -1,4 +1,32 @@
-.section-2{
-    height: 800px;
-    background-color: darkgrey;
+.about-us{
+   display: flex; 
+}
+.intro-about-us{
+    padding: 6%;
+    width: 50%;
+}
+.image-about-us{
+    width: 50%;
+}
+.intro-about-us h2{
+    font-size: 30px;
+    color:blueviolet;
+}
+.intro-about-us p{
+    line-height: 28px;
+    font-family: inherit;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    opacity: 0.6;
+    margin: 30px 0px 30px 0px;
+
+}
+.intro-about-us a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #04B6FF;
+    border-radius: 5px;
+
+
 }
