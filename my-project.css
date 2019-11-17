@@ -185,7 +185,7 @@ hr{
     color: white;
 }
 .banner{
-    background-image: url(../Image/03\ gettyimages-657161280_resized.jpg); 
+    background-image: url(../myproject/image/03\ gettyimages-657161280_resized.jpg); 
     height: 750px;
     margin-top: 50px;
     background-attachment: fixed;
@@ -197,14 +197,14 @@ hr{
 }
 .tast-bar{
     background-color: cornsilk;;
-    height: 50px;
-    position: relative;
+    height: 40px;
     position: fixed;
-    top: 750px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     line-height: 40px;
     border-top: 1px solid steelblue;
+    z-index: 999999;
 }
 .li-tast-bar{
     text-decoration: none;
